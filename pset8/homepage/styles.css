@@ -1,0 +1,97 @@
+body {
+    background-color: grey;
+    text-align: center;
+}
+
+span {
+    color: blue;
+    cursor: default;
+}
+
+h1 {
+    color: blue;
+    cursor: default;
+}
+
+h2 {
+    color: blue;
+    cursor: default;
+}
+
+h3 {
+    color: blue;
+    cursor: default;
+}
+
+h4 {
+    color: blue;
+    cursor: default;
+}
+h5 {
+    color: blue;
+    cursor: default;
+}
+
+h6 {
+    color: blue;
+    cursor: default;
+}
+
+p {
+    color: blue;
+    cursor: default;
+}
+
+.section {
+    padding-top: 30px;
+}
+
+a:link {
+    color: #0000ff;
+    transition: 0.4s;
+}
+
+a:link:hover {
+    color: #8888ff;
+}
+
+a:visited {
+    color: #00ff00;
+    transition: 0.4s;
+}
+
+a:visited:hover {
+    color: #88ff88;
+}
+
+img {
+    border-color: blue;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 25%;
+    width:40%;
+}
+
+hr {
+  border: 5px solid blue;
+  width: 60%;
+  border-radius: 5px;
+}
+
+button {
+    color: blue;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    border: solid;
+    border-width: 2px;
+    border-color: blue;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: 0.4s;
+}
+
+button:hover {
+    color: white;
+    background-color: blue;
+}

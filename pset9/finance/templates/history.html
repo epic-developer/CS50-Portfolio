@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+   Transaction History
+{% endblock %}
+
+{% block main %}
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Ticker Symbol</th>
+            <th>Shares</th>
+            <th>Price per share (at buy/sell)</th>
+            <th>Transaction Time</th>
+            <th>Transaction Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for log in logs %}
+        <tr>
+            <td>{{log.stock}}</td>
+            <td>{{log.shares}}</td>
+            <td>{{log.price | usd}}</td>
+            <td>{{log.time}}</td>
+            <td>{{log.type}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

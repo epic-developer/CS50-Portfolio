@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: It was fastest when the dataset was sorted and shorter per (n). 16.3, 11.9
+
+sort2 uses: Merge Sort
+
+How do you know?: It was fast when the dataset was sorted and shorter per (n log n) but not as fast as (n). 3.5, 1.9
+
+sort3 uses: Selection Sort
+
+How do you know?: It was the slow when the dataset was sorted and shorter per n^2. 6.9, 7.8
